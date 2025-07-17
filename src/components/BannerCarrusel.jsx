@@ -47,7 +47,8 @@ export default function BannerCarrusel() {
         width: '100%',
         height: { xs: 150, sm: 220, md: 400 },
         overflow: 'hidden',
-        position: 'relative'
+        position: 'relative',
+        maxWidth: '100vw'
       }}
       onMouseEnter={detenerCarrusel}
       onMouseLeave={iniciarCarrusel}
