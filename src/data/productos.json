@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mate Imperial de Algarrobo",
+    "descripcion": "Mate tallado en algarrobo con virola de alpaca y interior de calabaza.",
+    "categoria": "Mates",
+    "subcategoria": "Imperial",
+    "precio": 8200,
+    "stock": 10,
+    "sku": "MAT-IMP-ALG",
+    "variantes": [
+      { "color": "Natural", "stock": 6, "sku": "MAT-IMP-ALG-NAT" },
+      { "color": "Oscuro", "stock": 4, "sku": "MAT-IMP-ALG-OSC" }
+    ],
+    "etiquetas": ["algorrobo", "imperial", "alpaca", "artesanal"],
+    "imagen": "/images/productos/mate-algarrobo.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Set Clásico Pachamates",
+    "descripcion": "Incluye mate de cuero, bombilla de acero inoxidable y bolso artesanal.",
+    "categoria": "Set",
+    "subcategoria": "Clásico",
+    "precio": 14500,
+    "stock": 8,
+    "sku": "SET-CLA-PACH",
+    "variantes": [],
+    "etiquetas": ["set", "cuero", "bombilla", "artesanal"],
+    "imagen": "/images/productos/set-clasico.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Mate Camionero Forrado",
+    "descripcion": "Tradicional mate camionero con base metálica y cuero rústico.",
+    "categoria": "Mates",
+    "subcategoria": "Camionero",
+    "precio": 6900,
+    "stock": 14,
+    "sku": "MAT-CAM-RUS",
+    "variantes": [],
+    "etiquetas": ["camionero", "cuero", "rústico", "tradicional"],
+    "imagen": "/images/productos/mate-camionero.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Mate Torpedo de Madera",
+    "descripcion": "Cuerpo torneado en madera de roble, con virola labrada a mano.",
+    "categoria": "Mates",
+    "subcategoria": "Torpedo",
+    "precio": 7500,
+    "stock": 12,
+    "sku": "MAT-TOR-ROB",
+    "variantes": [],
+    "etiquetas": ["torpedo", "roble", "madera", "labrado"],
+    "imagen": "/images/productos/mate-torpedo.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Mate de Calabaza Natural",
+    "descripcion": "Mate clásico argentino, secado natural y curado a fuego lento.",
+    "categoria": "Mates",
+    "subcategoria": "Tradicional",
+    "precio": 4800,
+    "stock": 20,
+    "sku": "MAT-TRA-CAL",
+    "variantes": [],
+    "etiquetas": ["calabaza", "natural", "clásico", "argentino"],
+    "imagen": "/images/productos/mate-calabaza.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Mate Premium con Pie",
+    "descripcion": "Mate forrado en cuero fino con pie de acero inoxidable y virola artística.",
+    "categoria": "Mates",
+    "subcategoria": "Imperial",
+    "precio": 8600,
+    "stock": 7,
+    "sku": "MAT-IMP-PIE",
+    "variantes": [],
+    "etiquetas": ["premium", "cuero", "pie", "artístico"],
+    "imagen": "/images/productos/mate-premium.jpeg"
+  },
+  {
+    "id": 7,
+    "nombre": "Set Viajero Pachamates",
+    "descripcion": "Mate ligero + bombilla + funda acolchada ideal para viajes y oficina.",
+    "categoria": "Set",
+    "subcategoria": "Viajero",
+    "precio": 9800,
+    "stock": 9,
+    "sku": "SET-VIA-PACH",
+    "variantes": [],
+    "etiquetas": ["viajero", "funda", "oficina", "ligero"],
+    "imagen": "/images/productos/set-viajero.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Mate Pintado a Mano",
+    "descripcion": "Diseños únicos pintados a mano por artistas locales.",
+    "categoria": "Mates",
+    "subcategoria": "Artesanal",
+    "precio": 6300,
+    "stock": 6,
+    "sku": "MAT-ART-PINT",
+    "variantes": [],
+    "etiquetas": ["pintado", "artesanal", "único", "local"],
+    "imagen": "/images/productos/mate-pintado.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Mate Mini para Regalo",
+    "descripcion": "Mate pequeño ideal para souvenir o regalo personalizado.",
+    "categoria": "Accesorios",
+    "subcategoria": "Mini",
+    "precio": 3900,
+    "stock": 15,
+    "sku": "ACC-MIN-REG",
+    "variantes": [],
+    "etiquetas": ["mini", "regalo", "souvenir", "personalizado"],
+    "imagen": "/images/productos/mate-mini.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Set Deluxe con Mate Imperial",
+    "descripcion": "Mate imperial + bombilla cromada + caja artesanal de madera.",
+    "categoria": "Set",
+    "subcategoria": "Deluxe",
+    "precio": 17800,
+    "stock": 5,
+    "sku": "SET-DEL-IMP",
+    "variantes": [],
+    "etiquetas": ["deluxe", "imperial", "bombilla", "caja"],
+    "imagen": "/images/productos/set-deluxe.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Mate de Cuero Trenzado",
+    "descripcion": "Forrado con cuero trenzado hecho a mano, estilo gaucho.",
+    "categoria": "Mates",
+    "subcategoria": "Artesanal",
+    "precio": 7200,
+    "stock": 11,
+    "sku": "MAT-ART-TRE",
+    "variantes": [],
+    "etiquetas": ["cuero", "trenzado", "gaucho", "artesanal"],
+    "imagen": "/images/productos/mate-trenzado.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Mate Reciclado Eco Pachamates",
+    "descripcion": "Fabricado con materiales reciclados, 100% ecológico y durable.",
+    "categoria": "Mates",
+    "subcategoria": "Sustentable",
+    "precio": 5100,
+    "stock": 16,
+    "sku": "MAT-SUS-ECO",
+    "variantes": [],
+    "etiquetas": ["reciclado", "eco", "sustentable", "durable"],
+    "imagen": "/images/productos/mate-eco.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Bombilla de Alpaca Curvada",
+    "descripcion": "Bombilla clásica curvada, fácil de limpiar y resistente al calor.",
+    "categoria": "Accesorios",
+    "subcategoria": "Bombilla",
+    "precio": 2500,
+    "stock": 30,
+    "sku": "ACC-BOM-ALP",
+    "variantes": [],
+    "etiquetas": ["bombilla", "alpaca", "curvada", "resistente"],
+    "imagen": "/images/productos/bombilla-alpaca.jpeg"
+  },
+  {
+    "id": 14,
+    "nombre": "Mate Cerámico Estilo Zen",
+    "descripcion": "Diseño minimalista cerámico, ideal para espacios zen y oficina.",
+    "categoria": "Mates",
+    "subcategoria": "Moderno",
+    "precio": 6700,
+    "stock": 13,
+    "sku": "MAT-MOD-ZEN",
+    "variantes": [],
+    "etiquetas": ["cerámico", "zen", "moderno", "minimalista"],
+    "imagen": "/images/productos/mate-zen.jpeg"
+  },
+  {
+  "id": 15,
+  "nombre": "Combo Pachamates Express",
+  "descripcion": "Mate, bombilla, y yerbera en estuche compacto para llevar a todos lados.",
+  "categoria": "Set",
+  "subcategoria": "Express",
+  "precio": 8800,
+  "stock": 10,
+  "sku": "SET-EXP-PACH",
+  "variantes": [
+    {
+      "color": "Negro",
+      "stock": 5,
+      "sku": "SET-EXP-PACH-NEG"
+    },
+    {
+      "color": "Verde",
+      "stock": 5,
+      "sku": "SET-EXP-PACH-VER"
+    }
+  ],
+  "etiquetas": ["combo", "express", "yerbera", "viaje", "compacto"],
+  "imagen": "/images/productos/combo-express.png"
+}
+]
