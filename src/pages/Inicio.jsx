@@ -9,14 +9,6 @@ import ContactoSection from '../components/Contacto';
 export default function Inicio({ contactoRef }) {
   const location = useLocation();
 
-  /*const bannerImages = JSON.parse(localStorage.getItem('bannerImages')) || [];
-
-<Box sx={{ display: 'flex', overflowX: 'auto', gap: 2 }}>
-  {bannerImages.map((url, index) => (
-    <img key={index} src={url} alt={`banner-${index}`} style={{ height: 300, borderRadius: 8 }} />
-  ))}
-</Box> */
-
   useEffect(() => {
     if (location.state?.scrollTo === 'contacto') {
       contactoRef.current?.scrollIntoView({ behavior: 'smooth' });

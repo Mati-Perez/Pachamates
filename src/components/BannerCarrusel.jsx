@@ -45,7 +45,7 @@ export default function BannerCarrusel() {
     <Box
       sx={{
         width: '100%',
-        height: { xs: 220, sm: 300, md: 400 },
+        height: { xs: 150, sm: 220, md: 400 },
         overflow: 'hidden',
         position: 'relative'
       }}
@@ -70,7 +70,10 @@ export default function BannerCarrusel() {
             sx={{
               width: `${100 / imagenes.length}%`,
               height: '100%',
-              objectFit: 'cover'
+              minHeight: { xs: 150, sm: 220, md: 400 },
+              objectFit: 'cover',
+              objectPosition: 'center',
+              display: 'block'
             }}
           />
         ))}
