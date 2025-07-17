@@ -1,33 +1,38 @@
-import { AppBar, Toolbar, Typography, IconButton, Badge, Button, Box } from '@mui/material';
+import { useState } from 'react';
+import { useLocation, useNavigate, Link } from 'react-router-dom';
+
+import { 
+  AppBar, 
+  Toolbar, 
+  Typography, 
+  IconButton, 
+  Badge, 
+  Button, 
+  Box,
+  Menu, 
+  MenuItem, 
+  Tooltip,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  TextField,
+  Drawer,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  useMediaQuery
+} from '@mui/material';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { Link } from 'react-router-dom';
 import { useCart } from '../context/useCart';
 import logoNav from '../../public/images/logo/white_on_black.png';
 import HomeIcon from '@mui/icons-material/Home';
 import LoginIcon from '@mui/icons-material/Login';
 import ContactMailIcon from '@mui/icons-material/MailOutline';
 import MateIcon from './MateIcon';
-import { useLocation } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
-import { Menu, MenuItem, Tooltip } from '@mui/material';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import { useState } from 'react';
-import {
-  Dialog,
-  DialogTitle,
-  DialogContent,
-  DialogActions,
-  TextField
-} from '@mui/material';
-import { useMediaQuery } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Drawer } from '@mui/material';
-import {
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText
-} from '@mui/material';
 import LockIcon from '@mui/icons-material/Lock';
 import LogoutIcon from '@mui/icons-material/Logout';
 
@@ -117,7 +122,6 @@ export default function Navbar({ cartCount = 0, onCartClick, onContactoClick }) 
       return;
     }
 
-    // Simulación de cambio
     alert('Contraseña actualizada correctamente');
     handleCloseModal();
   };
@@ -148,7 +152,7 @@ export default function Navbar({ cartCount = 0, onCartClick, onContactoClick }) 
     <AppBar position="static" color="primary" sx={{ backgroundColor: '#101d20ff' }}>
       <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Box component={Link} to="/" sx={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-          <img src={logoNav} alt="Logo Pachamates" style={{ height: 100, marginRight: 8, borderRadius: 100 }} />
+          <img src={logoNav} alt="Logo Pachamates" style={{ height: 100, marginRight: -40, borderRadius: 100 }} />
         </Box>
         
         {/* Navegación */}
